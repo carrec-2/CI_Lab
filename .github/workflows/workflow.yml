@@ -26,8 +26,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m sudo -H pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m sudo pip install --upgrade pip
+          sudo pip install -r requirements.txt
 
 
       - name: Lint with flake8
